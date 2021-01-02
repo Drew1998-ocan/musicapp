@@ -12,6 +12,11 @@ body
     /*background-color: cadetblue;*/
     padding: 0;
     margin: 0;
+    font-family: poppins;
+}
+
+p{
+    font-size: small;
 }
 
 .main-container
@@ -110,8 +115,10 @@ body
     
     color: deepskyblue;
     text-transform: capitalize;
+    font-weight: 800;
     font-size: 45px;
-    text-shadow: 0 0 20px rgb(55, 202, 11);
+    text-shadow: 0 0 3px rgb(55, 202, 11);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 .cloud
@@ -123,12 +130,14 @@ body
     color: rgb(229, 234, 241);
     background-color: #433d3c;
     margin: 20px 0 20px 20px;
-    padding: 6px 10px 6px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 20px;
     outline: none;
     border-style: none;
     height: 40px;
     cursor: pointer;
+    font-weight: 600;
+
 }
 .cloud-1:hover
 {
@@ -159,7 +168,7 @@ body
 /* THE SECOND SECTION*/
 .sector
 {
-    background-image: linear-gradient(rgba(56, 18, 92, 0.94), rgba(29, 68, 33, 0.95) );
+    background-image: linear-gradient(rgba(37, 33, 41, 0.94), rgba(0, 0, 0, 0.95) );
     width: 100%;
     height: 280px;
     margin-top: 0;
@@ -267,7 +276,9 @@ h5
     height: 100%;
     padding: 10px;
     width: 100%;
-    background:linear-gradient( rgba(7, 73, 14, 0.95),rgba(27, 89, 139, 0.94)) ;
+    background-image: linear-gradient(rgba(37, 33, 41, 0.94), rgba(0, 0, 0, 0.95) );
+
+    /* background:linear-gradient( rgba(7, 73, 14, 0.95),rgba(27, 89, 139, 0.94)) ; */
 }
 .fa-chevron-right
 {
