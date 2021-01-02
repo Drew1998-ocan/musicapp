@@ -17,6 +17,7 @@ body
 
 p{
     font-size: small;
+    letter-spacing: 1.5px;
 }
 
 .main-container
@@ -25,6 +26,7 @@ p{
     padding: 20px;
     display: flex;
 }
+
 .input
 {
     color: rgb(229, 234, 241);
@@ -101,6 +103,8 @@ p{
 {
     text-transform: uppercase;
     clear: both;
+    letter-spacing: 2px;
+    font-size: large;
     
 }
 .trend
@@ -115,6 +119,7 @@ p{
     
     color: deepskyblue;
     text-transform: capitalize;
+    letter-spacing: 3px;
     font-weight: 800;
     font-size: 45px;
     text-shadow: 0 0 3px rgb(55, 202, 11);
@@ -168,7 +173,8 @@ p{
 /* THE SECOND SECTION*/
 .sector
 {
-    background-image: linear-gradient(rgba(37, 33, 41, 0.94), rgba(0, 0, 0, 0.95) );
+    background-image: linear-gradient(rgba(58, 39, 78, 0.94), rgba(0, 0, 0, 0.95) );
+    backdrop-filter: blur(5px);
     width: 100%;
     height: 280px;
     margin-top: 0;
@@ -294,7 +300,10 @@ h5
 .controller
 {
     display: flex;
-    background-image: linear-gradient(rgba(42, 24, 59, 0.94), rgba(17, 36, 19, 0.95) );
+    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(rgba(37, 33, 41, 0.94), rgba(0, 0, 0, 0.95) );
+
+    /* background-image: linear-gradient(rgba(42, 24, 59, 0.94), rgba(17, 36, 19, 0.95) ); */
 
 }
 .fa-play-circle
