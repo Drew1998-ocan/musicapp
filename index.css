@@ -61,7 +61,7 @@ body
 .container
 {
     padding: 20px;
-    background-image: url('mark7.jpg');
+    background-image: url('/image/mark7.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
