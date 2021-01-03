@@ -5,3 +5,6 @@ Music App Frontend in vanilla html and css
 
 all commits by the contributor included
 ![3rd_commit](https://user-images.githubusercontent.com/75777099/103483665-20ec2e00-4de9-11eb-977a-36918f477f28.jpg)
+
+update the font poppin
+![4th_commit](https://user-images.githubusercontent.com/75777099/103490398-ca4c1780-4e1b-11eb-88d3-a0089c65e92d.jpg)
